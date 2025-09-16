@@ -122,7 +122,7 @@ const RegistrationSuccessPage: React.FC = () => {
               <div style={{ color: "#333" }}>
                 {formatDateWithWeekday(registrationInfo.appointmentDate)}
               </div>
-              <div className="text-gray-600 text-sm">
+              <div style={{ color: "#333" }} className="text-sm">
                 {registrationInfo.appointmentTime[0]}~
                 {registrationInfo.appointmentTime[1]}
               </div>
