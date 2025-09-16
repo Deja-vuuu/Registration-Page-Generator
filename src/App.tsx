@@ -54,7 +54,7 @@ function App() {
         </div>
 
         {/* 右侧配置面板 */}
-        <div className="w-80 bg-white  border-gray-200">
+        <div className="w-100 bg-white  border-gray-200">
           <div className="p-4 border-b border-gray-200">
             <div className="flex items-center space-x-2">
               <Settings className="w-5 h-5 text-gray-600" />
