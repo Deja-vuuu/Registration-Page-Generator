@@ -17,10 +17,8 @@ function App() {
   const handleExport = async () => {
     const el = document.querySelector("#target") as HTMLElement;
     const result = await snapdom(el);
-
-    const img = await result.toPng();
-    document.body.appendChild(img);
-
+    // const img = await result.toPng();
+    // document.body.appendChild(img);
     await result.download({ format: "jpg", filename: "my-capture" });
   };
 
