@@ -4,6 +4,7 @@ import ConfigPanel from "./components/ConfigPanel";
 import PreviewArea from "./components/PreviewArea";
 import { Download, FileText, Settings } from "lucide-react";
 import { snapdom } from "@zumer/snapdom";
+import { Button } from "antd";
 
 function App() {
   const { loadFromStorage } = useAppStore();
@@ -35,13 +36,13 @@ function App() {
           </div>
 
           <div className="flex items-center space-x-3">
-            <button
+            <Button
+              type="primary"
               onClick={handleExport}
-              className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              icon={<Download className="w-4 h-4" />}
             >
-              <Download className="w-4 h-4" />
-              <span>导出图片</span>
-            </button>
+              导出图片
+            </Button>
           </div>
         </div>
       </header>
