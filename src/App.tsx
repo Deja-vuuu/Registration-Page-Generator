@@ -20,7 +20,10 @@ function App() {
     const result = await snapdom(el);
     // const img = await result.toPng();
     // document.body.appendChild(img);
-    await result.download({ format: "jpg", filename: "my-capture" });
+    await result.download({
+      format: "jpg",
+      filename: `微信图片_${new Date().getTime()}`,
+    });
   };
 
   return (
