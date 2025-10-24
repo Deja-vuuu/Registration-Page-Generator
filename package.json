@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "@zumer/snapdom": "^1.9.11",
     "antd": "^5.27.3",
     "dayjs": "^1.11.18",
