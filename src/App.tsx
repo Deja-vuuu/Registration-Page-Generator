@@ -32,7 +32,7 @@ function App() {
           <div className="flex items-center space-x-3">
             <FileText className="w-6 h-6 text-blue-600" />
             <h1 className="text-xl font-semibold text-gray-800">
-              挂号页面生成器
+              114预约挂号页面生成器
             </h1>
           </div>
 
