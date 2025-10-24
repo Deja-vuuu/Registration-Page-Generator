@@ -5,7 +5,7 @@ import PreviewArea from "./components/PreviewArea";
 import { Download, FileText, Settings } from "lucide-react";
 import { snapdom } from "@zumer/snapdom";
 import { Button } from "antd";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics";
 
 function App() {
   const { loadFromStorage } = useAppStore();
